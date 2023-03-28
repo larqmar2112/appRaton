@@ -1,4 +1,4 @@
-import mijava.paquete.Raton;
+import mijava.ratonera.Raton;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,8 +14,8 @@ public class Main {
 
         while(ratatouille.peso<= mickey.peso){
             System.out.printf("%s->%s   %s->%s\n","Ratatouille",ratatouille.datos(),"Mickey",mickey.datos());
-            ratatouille.crecer();
-            mickey.crecer();
+            ratatouille.desarrollar();
+            mickey.desarrollar();
             if(ratatouille.edad>=60) ratatouille.tasaCrecimiento=ratatouille.tasaCrecimiento+1;
         }
     }
